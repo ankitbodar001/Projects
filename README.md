@@ -10,19 +10,19 @@ This project is a web application built with Flask that allows users to search f
 
 1. Install the required dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 2. Download and install the Chrome WebDriver suitable for your Chrome version: https://sites.google.com/a/chromium.org/chromedriver/downloads.
 
 3. Update the 'executable_path' in the script (app.py) with the path to the Chrome WebDriver executable on your machine:
 
-service = Service(executable_path='/path/to/chromedriver')
+   service = Service(executable_path='/path/to/chromedriver')
 
 4. Make sure you have MongoDB installed and running on your system. If not, follow the instructions at https://docs.mongodb.com/manual/installation/ to install and configure MongoDB.
 
 5. Start the Flask application:
 
-python app.py
+   python app.py
 
 6. Access the application in your web browser at http://localhost:8000.
 
