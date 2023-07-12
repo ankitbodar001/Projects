@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Video Details</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+
+  <div class="table-users">
+   <div class="header">YouTube Channel Info</div>
+
+   <table cellspacing="0">
+      <tr>
+         <th>Video Link</th>
+         <th>Thumbnail</th>
+         <th>Title</th>
+         <th>Views</th>
+         <th>Upload Time</th>
+      </tr>
+         {% for review in reviews %}
+      <tr>
+          <td><a href="{{ review['Video URL'] }}" target="_blank">{{ review['Video URL'] }}</a></td>
+          <td><img src="{{ review['Thumbnail URL'] }}" alt="Thumbnail"></td>
+          <td>{{ review['Title'] }}</td>
+          <td>{{ review['Views'] }}</td>
+          <td>{{ review['Upload Time'] }}</td>
+       {% endfor %}
+   </table>
+</div>
+</body>
+</html>
