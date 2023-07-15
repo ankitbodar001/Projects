@@ -3,6 +3,4 @@ flask_cors
 requests
 bs4
 pymongo
-selenium
 selenium==3.141.0
-selenium.webdriver.chrome.service
