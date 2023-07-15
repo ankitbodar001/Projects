@@ -4,5 +4,5 @@ requests
 bs4
 pymongo
 selenium
-selenium.webdriver.chrome.options
+selenium==3.141.0
 selenium.webdriver.chrome.service
