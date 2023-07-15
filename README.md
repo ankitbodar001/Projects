@@ -35,6 +35,3 @@ This project is a web application built with Flask that allows users to search f
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License
-This project is licensed under the https://chat.openai.com/c/LICENSE.
-You can modify this template according to your specific project requirements. Don't forget to include a `LICENSE` file if you decide to use a different license for your project.
